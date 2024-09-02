@@ -1,62 +1,53 @@
-import ayla from '/public/image/ayla.jpg';
-import crefin from '/public/image/crefin.jpg';
-import realEstate from '/public/image/real-estate.jpg';
-import travel from '/public/image/travel.jpg';
+import ayla from "/public/image/ayla.jpg";
+import crefin from "/public/image/crefin.jpg";
+import realEstate from "/public/image/real-estate.jpg";
+import travel from "/public/image/travel.jpg";
 
 export const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-        image: crefin,
-    },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-        image: travel,
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-        image: realEstate,
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        image: ayla,
-        role: 'Full Stack Developer',
-    }
+  {
+    id: 1,
+    name: "Auction System",
+    description:
+      "Auction Hub is a real-time bidding platform designed for Android users, offering a seamless auction experience. Developed using Java and Firebase, the app allows users to participate in live auctions with real-time updates. Key features include a secure wallet system powered by Razorpay, an advanced search mechanism for easy navigation, and a comprehensive admin panel for managing auctions. The intuitive interface ensures users can effortlessly bid, track auctions, and manage their accounts.",
+    tools: [
+      "Java",
+      "Android Studio",
+      "XML",
+      "Firebase",
+      "Razorpay",
+      "Android SDK",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "jQuery",
+      "Bootstrap",
+      "PHP",
+    ],
+    role: "Full Stack Developer",
+    code: "",
+    demo: "",
+    image: crefin,
+  },
+  {
+    id: 2,
+    name: "Book buying and selling platform",
+    description:
+      "Bookhazana is a web application that connects book enthusiasts, allowing them to buy and sell books online. Built with HTML, CSS, JavaScript, jQuery, Bootstrap, PHP, and MySQL, the platform is designed for a user-friendly experience. The website features a clean, responsive interface that makes browsing and purchasing books easy. Sellers can list their books, manage inventories, and track sales, while buyers can search, filter, and purchase books securely. An efficient admin panel ensures smooth operation and management of the platform.",
+    tools: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP", "MySQL"],
+    role: "Full Stack Developer",
+    code: "",
+    demo: "",
+    image: travel,
+  },
+  {
+    id: 3,
+    name: "Quotes App",
+    description:
+      "Quotes Hub is an Android application that provides users with a collection of inspirational quotes from various sources. The app, developed with Java and Firebase, allows users to browse, share, and save their favorite quotes. Key features include integration with Cloud Firestore for storing quotes, a ViewPager for smooth navigation between categories, and AdMob integration for monetization. The clean and simple interface ensures that users can easily find motivation whenever they need it.",
+    tools: ["Java", "Android Studio", "XML", "Firebase", "Android SDK"],
+    code: "",
+    role: "Full Stack Developer",
+    demo: "",
+    image: realEstate,
+  },
 ];
-
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-//     image: crefin,
-// },

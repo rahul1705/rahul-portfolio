@@ -12,7 +12,7 @@ const NavbarToggleButton = () => {
       {/* Mobile Menu Toggle Button */}
       {!isOpen && (
         <button
-          className="md:hidden text-[#16f2b3] text-3xl z-50 focus:outline-none transition-transform duration-300 ease-in-out"
+          className="md:hidden text-violet-500 text-3xl z-50 focus:outline-none transition-transform duration-300 ease-in-out"
           onClick={() => setIsOpen(true)}
           aria-label="Open navigation"
         >
@@ -23,7 +23,7 @@ const NavbarToggleButton = () => {
       {/* Mobile Menu Cancel Button */}
       {isOpen && (
         <button
-          className="md:hidden text-[#16f2b3] text-3xl z-50 focus:outline-none absolute top-4 right-4 transition-transform duration-300 ease-in-out"
+          className="md:hidden text-violet-500 text-3xl z-50 focus:outline-none absolute top-4 right-4 transition-transform duration-300 ease-in-out"
           onClick={() => setIsOpen(false)}
           aria-label="Close navigation"
         >
@@ -41,7 +41,7 @@ const NavbarToggleButton = () => {
           <li key={item} className="my-4">
             <Link
               href={`/${item === 'about' ? 'about' : `#${item}`}`}
-              className="text-base hover:text-[#f72585] transition-colors duration-300"
+              className="text-base hover:text-violet-500 transition-colors duration-300"
               onClick={() => setIsOpen(false)}
             >
               {item.toUpperCase()}

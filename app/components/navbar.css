@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'BestermindRegular';
+    src: url('../../public/fonts/BestermindRegular.ttf'); 
+    src: url('../../public/fonts/BestermindRegular.ttf') format('embedded-opentype'), 
+         url('../../public/fonts/BestermindRegular.ttf')  format('truetype'), 
+  }
+
+#logo-name {
+    font-family: 'BestermindRegular', sans-serif;
+}

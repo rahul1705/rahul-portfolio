@@ -1,17 +1,20 @@
 export const personalData = {
   name: "Rahul Mandal",
-  profile: '/profile.png',
+  profile: "/profile.png",
   designation: "Full Stack Developer",
-  description: "My name is ABU SAID. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
-  email: 'rmandal0405@gmail.com',
-  phone: '+91 6301404365',
-  address: 'Hyderabad, INDIA ',
-  github: 'https://github.com/said7388',
-  facebook: 'https://www.facebook.com/abusaid.riyaz/',
-  linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
-  twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
-}
+  description: `Hello, I'm Rahul Mandal, a versatile developer with strong expertise in full stack and Android app development. Proficient in Java, Python, and JavaScript, I excel in building robust front-end and back-end solutions. My skills cover web technologies like HTML, CSS, and PHP, and frameworks including React, Node.js, and Express.js.
+I have hands-on experience with Android development, crafting engaging mobile applications. I also specialize in managing databases with MongoDB, MySQL, and PostgreSQL, and deploying solutions with AWS. Additionally, I leverage Firebase, Material-UI, and Bootstrap to create dynamic and user-friendly interfaces.
+I am passionate about exploring new challenges and eager to contribute to innovative projects that drive success in both web and mobile development.`,
+  email: "rmandal0405@gmail.com",
+  phone: "+91 6301404365",
+  address: "Hyderabad, INDIA ",
+  github: "https://github.com/rahul1705",
+  facebook: "https://www.facebook.com/rahul.mandal1705/",
+  linkedIn: "https://www.linkedin.com/in/rahulmandal0405/",
+  twitter: "#",
+  stackOverflow: "#",
+  leetcode: "#",
+  devUsername: "rahul_mandal",
+  resume:
+    "https://drive.google.com/file/d/1niswmTcFTHS47IJVF8kJ36Sq2yUJkFVy/view?usp=sharing",
+};

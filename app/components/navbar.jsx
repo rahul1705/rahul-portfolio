@@ -22,7 +22,7 @@ const Navbar = () => {
           {['about', 'experience', 'skills', 'education', 'projects'].map((item) => (
             <li key={item}>
               <Link
-                href={`/${item === 'about' ? 'about' : `#${item}`}`}
+                href={`/${item === 'about' ? '#about' : `#${item}`}`}
                 className="block px-4 py-2 text-base text-white transition-colors duration-300 hover:text-violet-500"
               >
                 {item.toUpperCase()}

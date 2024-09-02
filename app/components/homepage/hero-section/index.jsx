@@ -27,7 +27,7 @@ function HeroSection() {
             Hello, <br />
             I am {' '}
             <span className=" text-amber-300">{personalData.name}. </span>
-            {`I'm a `} 
+            {`I am a `} 
             <span className="text-violet-500">
               <Typewriter
                   words={['Human', 'Full Stack Developer', 'Android App Developer', 'Graphic Designer']}

@@ -6,10 +6,10 @@ import './navbar.css';
 const Navbar = () => {
   return (
     <nav className="bg-transparent relative">
-      <div className="flex items-center justify-between py-5 px-4 md:px-6">
+      <div className="flex items-center justify-between py-3 px-4 md:px-6">
         {/* Website Name */}
         <div className="flex flex-shrink-0 items-center w-full md:w-auto md:justify-start">
-          <Link href="/" id='logo-name' className="text-violet-500 text-3xl font-bold">
+          <Link href="/" id='logo-name' className="text-3xl font-semibold bg-gradient-to-r from-green-400 via-sky-400 to-violet-600 text-transparent bg-clip-text leading-[3.4rem] pe-2">
             {personalData.name}
           </Link>
         </div>

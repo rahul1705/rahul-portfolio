@@ -16,5 +16,5 @@ I am passionate about exploring new challenges and eager to contribute to innova
   leetcode: "#",
   devUsername: "rahul_mandal",
   resume:
-    "https://drive.google.com/file/d/1niswmTcFTHS47IJVF8kJ36Sq2yUJkFVy/view?usp=sharing",
+    "https://drive.google.com/file/d/18KB7hLhXoXkK1FWR06XFo6EnI1v-E1Ld/view",
 };

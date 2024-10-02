@@ -27,10 +27,10 @@ function HeroSection() {
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-8 sm:leading-10 lg:text-[2.6rem] lg:leading-[3.5rem] text-white md:font-extrabold">
             Hello, <br />
             I am {' '}
-            <span className="text-amber-300">{personalData.name}. </span>
+            <span className="text-blue-500">{personalData.name}. </span>
             {`I'm a `} 
             <div className="overflow-hidden">
-              <span className="text-violet-500">
+              <span className="text-violet-600">
                 <Typewriter
                     words={['Human', 'Full Stack Developer', 'Android App Developer', 'Graphic Designer']}
                     loop={true}
@@ -70,7 +70,7 @@ function HeroSection() {
           </div>
 
           <div className="flex items-center gap-3">
-            <Link href="#contact" className="bg-gradient-to-r to-sky-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600">
+            <Link href="#contact" className="bg-gradient-to-r to-sky-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-sky-500 hover:to-violet-600">
               <button className="px-3 text-xs md:px-8 py-3 md:py-4 bg-[#0d1224] rounded-full border-none text-center md:text-sm font-medium uppercase tracking-wider text-[#ffff] no-underline transition-all duration-200 ease-out  md:font-semibold flex items-center gap-1 hover:gap-3">
                 <span>Contact me</span>
                 <RiContactsFill size={16} />
